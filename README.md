@@ -6,7 +6,6 @@ libsnark的客户端环境
 ### 项目运行
 
 ```bash
-git clone git@github.com:Trusted-Federal-Learning/libsnark-docker.git
 cd libsnark-docker
 docker-compose up -d
 ```
