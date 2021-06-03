@@ -9,6 +9,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && apt-get install -y --no-install-recommends wget
 
 RUN apt install -y --no-install-recommends build-essential \
+    build-essential \
     cmake \
     git \
     libgmp3-dev \
